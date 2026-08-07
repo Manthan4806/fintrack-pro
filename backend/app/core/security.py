@@ -25,11 +25,19 @@ def verify_password(
     plain_password: str,
     hashed_password: str
 ) -> bool:
-    return pwd_context.verify(
+    print("=" * 40)
+    print("Entered Password:", plain_password)
+    print("Stored Hash:", hashed_password)
+
+    result = pwd_context.verify(
         plain_password,
         hashed_password
     )
 
+    print("Password Match:", result)
+    print("=" * 40)
+
+    return result
 
 
 

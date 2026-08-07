@@ -3,8 +3,10 @@ import uuid
 from sqlalchemy import Column, DateTime, ForeignKey, Numeric, String
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.sql import func
+from sqlalchemy.orm import relationship
 
 from app.db.database import Base
+
 
 
 class Account(Base):
@@ -45,4 +47,10 @@ class Account(Base):
     created_at = Column(
         DateTime(timezone=True),
         server_default=func.now(),
+    )
+
+    transactions = relationship(
+    "Transaction",
+    back_populates="account",
+    cascade="all, delete",
     )

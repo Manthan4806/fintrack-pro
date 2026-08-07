@@ -2,6 +2,8 @@ from fastapi import FastAPI
 
 from app.api.v1.auth import router as auth_router
 from app.api.v1.users import router as users_router
+from app.api.v1.accounts import router as accounts_router
+from app.api.v1.transactions import router as transactions_router
 
 app = FastAPI(
     title="FinTrack Pro API",
@@ -18,3 +20,5 @@ def root():
 
 app.include_router(auth_router)
 app.include_router(users_router)
+app.include_router(accounts_router)
+app.include_router(transactions_router)
