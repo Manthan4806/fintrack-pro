@@ -1,0 +1,1711 @@
+/* =========================================
+   FINTRACK PRO - GLOBAL UI
+   ========================================= */
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+
+  color: #1f2937;
+  background: #f4f7fb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+/* =========================================
+   DASHBOARD PAGE
+   ========================================= */
+
+.dashboard-page {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 40px 50px;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 32px;
+  padding: 26px 30px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+}
+
+.dashboard-header h1 {
+  margin: 0;
+
+  font-size: 30px;
+  font-weight: 750;
+  letter-spacing: -0.7px;
+
+  color: #111827;
+}
+
+.dashboard-header p {
+  margin: 6px 0 0;
+
+  font-size: 14px;
+  color: #6b7280;
+}
+
+
+/* =========================================
+   LOGOUT BUTTON
+   ========================================= */
+
+.logout-button {
+  border: none;
+  border-radius: 10px;
+
+  padding: 10px 18px;
+
+  background: #111827;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.logout-button:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+
+  box-shadow: 0 5px 14px rgba(17, 24, 39, 0.18);
+}
+
+
+/* =========================================
+   GENERAL CARD
+   ========================================= */
+
+.dashboard-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  padding: 24px;
+
+  margin-bottom: 22px;
+
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+}
+
+.dashboard-card h2 {
+  margin: 0 0 20px;
+
+  font-size: 19px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+
+/* =========================================
+   FINTRACK PRO - GLOBAL UI
+   ========================================= */
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+
+  color: #1f2937;
+  background: #f4f7fb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+/* =========================================
+   DASHBOARD PAGE
+   ========================================= */
+
+.dashboard-page {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 40px 50px;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 32px;
+  padding: 26px 30px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+}
+
+.dashboard-header h1 {
+  margin: 0;
+
+  font-size: 30px;
+  font-weight: 750;
+  letter-spacing: -0.7px;
+
+  color: #111827;
+}
+
+.dashboard-header p {
+  margin: 6px 0 0;
+
+  font-size: 14px;
+  color: #6b7280;
+}
+
+
+/* =========================================
+   LOGOUT BUTTON
+   ========================================= */
+
+.logout-button {
+  border: none;
+  border-radius: 10px;
+
+  padding: 10px 18px;
+
+  background: #111827;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.logout-button:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+
+  box-shadow: 0 5px 14px rgba(17, 24, 39, 0.18);
+}
+
+
+/* =========================================
+   GENERAL CARD
+   ========================================= */
+
+.dashboard-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  padding: 24px;
+
+  margin-bottom: 22px;
+
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+}
+
+.dashboard-card h2 {
+  margin: 0 0 20px;
+
+  font-size: 19px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+
+/* =========================================
+   SUMMARY CARDS
+   ========================================= */
+
+.summary-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 20px;
+
+  margin-bottom: 22px;
+}
+
+.summary-card {
+  position: relative;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  padding: 24px;
+
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+.summary-card p {
+  margin: 0 0 8px;
+
+  color: #6b7280;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.summary-card h2 {
+  margin: 0;
+
+  font-size: 28px;
+  font-weight: 750;
+
+  color: #111827;
+}
+
+
+/* =========================================
+   MAIN GRID
+   ========================================= */
+
+.dashboard-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 22px;
+
+  width: 100%;
+}
+
+.dashboard-grid .dashboard-card {
+  min-width: 0;
+}
+
+.summary-card:nth-child(1)::before,
+.summary-card:nth-child(2)::before,
+.summary-card:nth-child(3)::before {
+  content: "";
+
+  position: absolute;
+
+  top: 24px;
+  right: 24px;
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+}
+
+.summary-card:nth-child(1)::before {
+  background: #4f46e5;
+}
+
+.summary-card:nth-child(2)::before {
+  background: #16a34a;
+}
+
+.summary-card:nth-child(3)::before {
+  background: #dc2626;
+}
+
+/* =========================================
+   FORM ELEMENTS
+   ========================================= */
+
+.dashboard-card form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.dashboard-card label {
+  margin-top: 5px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #374151;
+}
+
+.dashboard-card input,
+.dashboard-card select {
+  width: 100%;
+
+  padding: 11px 13px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #111827;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.dashboard-card input::placeholder {
+  color: #9ca3af;
+}
+
+.dashboard-card input:focus,
+.dashboard-card select:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+
+/* =========================================
+   PRIMARY BUTTONS
+   ========================================= */
+
+.dashboard-card form button[type="submit"] {
+  margin-top: 10px;
+
+  border: none;
+  border-radius: 9px;
+
+  padding: 11px 16px;
+
+  background: #4f46e5;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.dashboard-card form button[type="submit"]:hover {
+  background: #4338ca;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 5px 14px rgba(79, 70, 229, 0.22);
+}
+
+
+/* =========================================
+   ACCOUNT / TRANSACTION BUTTONS
+   ========================================= */
+
+.edit-account-button,
+.delete-account-button,
+.edit-transaction-button,
+.delete-transaction-button,
+.delete-budget-button {
+  border: none;
+
+  border-radius: 7px;
+
+  padding: 6px 10px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  margin-left: 5px;
+}
+
+.edit-account-button,
+.edit-transaction-button {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.edit-account-button:hover,
+.edit-transaction-button:hover {
+  background: #e0e7ff;
+}
+
+.delete-account-button,
+.delete-transaction-button,
+.delete-budget-button {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.delete-account-button:hover,
+.delete-transaction-button:hover,
+.delete-budget-button:hover {
+  background: #fee2e2;
+}
+
+/* =========================================
+   BUDGETS - POLISHED
+   ========================================= */
+
+.budget-item {
+  padding: 16px;
+
+  margin-bottom: 14px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.budget-item:hover {
+  border-color: #cbd5e1;
+
+  box-shadow:
+    0 6px 16px rgba(15, 23, 42, 0.05);
+}
+
+.budget-item:last-child {
+  margin-bottom: 0;
+}
+
+.budget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  color: #374151;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 9px;
+
+  overflow: hidden;
+
+  background: #e5e7eb;
+
+  border-radius: 999px;
+}
+
+.progress {
+  height: 100%;
+
+  background: #4f46e5;
+
+  border-radius: 999px;
+
+  transition: width 0.4s ease;
+}
+
+.budget-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+}
+
+.budget-footer p {
+  margin: 0;
+
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.delete-budget-button {
+  border: none;
+
+  padding: 6px 11px;
+
+  border-radius: 7px;
+
+  background: #fef2f2;
+  color: #dc2626;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.delete-budget-button:hover {
+  background: #fee2e2;
+
+  transform: translateY(-1px);
+}
+
+/* =========================================
+   TRANSACTIONS
+   ========================================= */
+
+.transactions-card {
+  margin-top: 22px;
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid #eef0f3;
+}
+
+.transaction-row:last-child {
+  border-bottom: none;
+}
+
+.transaction-row strong {
+  font-size: 15px;
+}
+
+.transaction-row span {
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.expense {
+  color: #dc2626;
+}
+
+.income {
+  color: #16a34a;
+}
+
+
+/* =========================================
+   CHARTS
+   ========================================= */
+
+.spending-chart-card {
+  min-width: 0;
+}
+
+.recharts-responsive-container {
+  min-width: 0;
+}
+
+
+/* =========================================
+   EDIT FORMS
+   ========================================= */
+
+.account-edit-form,
+.transaction-edit-form {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.account-edit-form input,
+.account-edit-form select,
+.transaction-edit-form input,
+.transaction-edit-form select {
+  flex: 1;
+  min-width: 150px;
+}
+
+
+/* =========================================
+   SUCCESS / ERROR
+   ========================================= */
+
+.error {
+  margin: 5px 0;
+
+  color: #dc2626;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.success {
+  margin: 5px 0;
+
+  color: #16a34a;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.error-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #dc2626;
+
+  font-size: 16px;
+}
+
+.loading {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #6b7280;
+
+  font-size: 16px;
+}
+
+
+/* =========================================
+   MOBILE / TABLET
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .dashboard-page {
+    padding: 24px 20px 40px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .dashboard-page {
+    padding: 16px 12px 30px;
+  }
+
+  .dashboard-header {
+    padding: 20px;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 18px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 25px;
+  }
+
+  .logout-button {
+    width: 100%;
+  }
+
+  .dashboard-card {
+    padding: 18px;
+  }
+
+  .account-item,
+  .transaction-row {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .account-item {
+    flex-direction: column;
+  }
+
+  .summary-card h2 {
+    font-size: 24px;
+  }
+}
+
+.summary-card:nth-child(1)::before,
+.summary-card:nth-child(2)::before,
+.summary-card:nth-child(3)::before {
+  content: "";
+
+  position: absolute;
+
+  top: 24px;
+  right: 24px;
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+}
+
+.summary-card:nth-child(1)::before {
+  background: #4f46e5;
+}
+
+.summary-card:nth-child(2)::before {
+  background: #16a34a;
+}
+
+.summary-card:nth-child(3)::before {
+  background: #dc2626;
+}
+
+/* =========================================
+   MAIN GRID
+   ========================================= */
+
+.dashboard-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 22px;
+
+  width: 100%;
+}
+
+.dashboard-grid .dashboard-card {
+  min-width: 0;
+}
+
+
+/* =========================================
+   ACCOUNTS
+   ========================================= */
+
+.accounts-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #fafbfc;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.account-item:hover {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+}
+
+.account-item h3 {
+  margin: 0 0 5px;
+
+  font-size: 16px;
+  color: #111827;
+}
+
+.account-item p {
+  margin: 0 0 3px;
+
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.account-item small {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.account-item strong {
+  font-size: 17px;
+  color: #111827;
+}
+
+
+/* =========================================
+   FORM ELEMENTS
+   ========================================= */
+
+.dashboard-card form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.dashboard-card label {
+  margin-top: 5px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #374151;
+}
+
+.dashboard-card input,
+.dashboard-card select {
+  width: 100%;
+
+  padding: 11px 13px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #111827;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.dashboard-card input::placeholder {
+  color: #9ca3af;
+}
+
+.dashboard-card input:focus,
+.dashboard-card select:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+
+/* =========================================
+   PRIMARY BUTTONS
+   ========================================= */
+
+.dashboard-card form button[type="submit"] {
+  margin-top: 10px;
+
+  border: none;
+  border-radius: 9px;
+
+  padding: 11px 16px;
+
+  background: #4f46e5;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.dashboard-card form button[type="submit"]:hover {
+  background: #4338ca;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 5px 14px rgba(79, 70, 229, 0.22);
+}
+
+
+/* =========================================
+   ACCOUNT / TRANSACTION BUTTONS
+   ========================================= */
+
+.edit-account-button,
+.delete-account-button,
+.edit-transaction-button,
+.delete-transaction-button,
+.delete-budget-button {
+  border: none;
+
+  border-radius: 7px;
+
+  padding: 6px 10px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  margin-left: 5px;
+}
+
+.edit-account-button,
+.edit-transaction-button {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.edit-account-button:hover,
+.edit-transaction-button:hover {
+  background: #e0e7ff;
+}
+
+.delete-account-button,
+.delete-transaction-button,
+.delete-budget-button {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.delete-account-button:hover,
+.delete-transaction-button:hover,
+.delete-budget-button:hover {
+  background: #fee2e2;
+}
+
+
+/* =========================================
+   BUDGETS
+   ========================================= */
+
+.budget-item {
+  margin-bottom: 20px;
+}
+
+.budget-item:last-child {
+  margin-bottom: 0;
+}
+
+.budget-header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 9px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 9px;
+
+  overflow: hidden;
+
+  background: #e5e7eb;
+
+  border-radius: 999px;
+}
+
+.progress {
+  height: 100%;
+
+  background: #4f46e5;
+
+  border-radius: 999px;
+
+  transition: width 0.3s ease;
+}
+
+.budget-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 9px;
+}
+
+.budget-footer p {
+  margin: 0;
+
+  font-size: 13px;
+  color: #6b7280;
+}
+
+
+/* =========================================
+   TRANSACTIONS
+   ========================================= */
+
+.transactions-card {
+  margin-top: 22px;
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid #eef0f3;
+}
+
+.transaction-row:last-child {
+  border-bottom: none;
+}
+
+.transaction-row strong {
+  font-size: 15px;
+}
+
+.transaction-row span {
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.expense {
+  color: #dc2626;
+}
+
+.income {
+  color: #16a34a;
+}
+
+
+/* =========================================
+   CHARTS
+   ========================================= */
+
+.spending-chart-card {
+  min-width: 0;
+}
+
+.recharts-responsive-container {
+  min-width: 0;
+}
+
+
+/* =========================================
+   EDIT FORMS
+   ========================================= */
+
+.account-edit-form,
+.transaction-edit-form {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.account-edit-form input,
+.account-edit-form select,
+.transaction-edit-form input,
+.transaction-edit-form select {
+  flex: 1;
+  min-width: 150px;
+}
+
+
+/* =========================================
+   SUCCESS / ERROR
+   ========================================= */
+
+.error {
+  margin: 5px 0;
+
+  color: #dc2626;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.success {
+  margin: 5px 0;
+
+  color: #16a34a;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.error-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #dc2626;
+
+  font-size: 16px;
+}
+
+.loading {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #6b7280;
+
+  font-size: 16px;
+}
+
+
+/* =========================================
+   MOBILE / TABLET
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .dashboard-page {
+    padding: 24px 20px 40px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .dashboard-page {
+    padding: 16px 12px 30px;
+  }
+
+  .dashboard-header {
+    padding: 20px;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 18px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 25px;
+  }
+
+  .logout-button {
+    width: 100%;
+  }
+
+  .dashboard-card {
+    padding: 18px;
+  }
+
+  .account-item,
+  .transaction-row {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .account-item {
+    flex-direction: column;
+  }
+
+  .summary-card h2 {
+    font-size: 24px;
+  }
+}
+
+/* =========================================
+   RECENT TRANSACTIONS - POLISHED
+   ========================================= */
+
+.transactions-card {
+  margin-top: 22px;
+}
+
+.transactions-card h2 {
+  margin-bottom: 8px;
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 4px;
+
+  border-bottom: 1px solid #eef0f3;
+
+  transition:
+    background 0.2s ease,
+    padding 0.2s ease;
+}
+
+.transaction-row:last-child {
+  border-bottom: none;
+}
+
+.transaction-row:hover {
+  background: #f8fafc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+/* Left side */
+
+.transaction-row > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.transaction-row > div:first-child strong {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.transaction-row > div:first-child span {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* Right side */
+
+.transaction-row > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.transaction-row > div:last-child > strong {
+  min-width: 100px;
+  text-align: right;
+
+  font-size: 15px;
+  font-weight: 750;
+}
+
+/* Income */
+
+.transaction-row .income {
+  color: #16a34a;
+}
+
+/* Expense */
+
+.transaction-row .expense {
+  color: #dc2626;
+}
+
+/* Edit */
+
+.edit-transaction-button {
+  border: none;
+
+  padding: 6px 11px;
+
+  border-radius: 7px;
+
+  background: #eef2ff;
+  color: #4338ca;
+
+  font-size: 12px;
+  font-weight: 650;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.edit-transaction-button:hover {
+  background: #e0e7ff;
+  transform: translateY(-1px);
+}
+
+/* Delete */
+
+.delete-transaction-button {
+  border: none;
+
+  padding: 6px 11px;
+
+  border-radius: 7px;
+
+  background: #fef2f2;
+  color: #dc2626;
+
+  font-size: 12px;
+  font-weight: 650;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.delete-transaction-button:hover {
+  background: #fee2e2;
+  transform: translateY(-1px);
+}
+
+/* Keep transaction amount and buttons compact */
+
+.transaction-row > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.transaction-row > div:last-child > strong {
+  min-width: 100px;
+  text-align: right;
+}
+
+.edit-transaction-button,
+.delete-transaction-button {
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   FORMS - POLISHED
+   ========================================= */
+
+.add-transaction-card,
+.add-budget-card,
+.add-account-card {
+  position: relative;
+}
+
+.add-transaction-card h2,
+.add-budget-card h2,
+.add-account-card h2 {
+  font-size: 20px;
+  margin-bottom: 22px;
+  color: #111827;
+}
+
+/* Form spacing */
+
+.add-transaction-card form,
+.add-budget-card form,
+.add-account-card form {
+  gap: 11px;
+}
+
+/* Labels */
+
+.add-transaction-card label,
+.add-budget-card label,
+.add-account-card label {
+  margin-top: 7px;
+  font-size: 13px;
+  font-weight: 650;
+  color: #374151;
+}
+
+/* Inputs and dropdowns */
+
+.add-transaction-card input,
+.add-transaction-card select,
+.add-budget-card input,
+.add-budget-card select,
+.add-account-card input,
+.add-account-card select {
+  height: 44px;
+  padding: 0 13px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #111827;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.add-transaction-card input:hover,
+.add-transaction-card select:hover,
+.add-budget-card input:hover,
+.add-budget-card select:hover,
+.add-account-card input:hover,
+.add-account-card select:hover {
+  border-color: #9ca3af;
+}
+
+.add-transaction-card input:focus,
+.add-transaction-card select:focus,
+.add-budget-card input:focus,
+.add-budget-card select:focus,
+.add-account-card input:focus,
+.add-account-card select:focus {
+  border-color: #6366f1;
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+/* Submit buttons */
+
+.add-transaction-card button[type="submit"],
+.add-budget-card button[type="submit"],
+.add-account-card button[type="submit"] {
+  height: 44px;
+
+  margin-top: 12px;
+
+  border: none;
+  border-radius: 9px;
+
+  background: #4f46e5;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.add-transaction-card button[type="submit"]:hover,
+.add-budget-card button[type="submit"]:hover,
+.add-account-card button[type="submit"]:hover {
+  background: #4338ca;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 6px 16px rgba(79, 70, 229, 0.2);
+}
+
+/* Success / error messages */
+
+.add-transaction-card .success,
+.add-budget-card .success,
+.add-account-card .success {
+  padding: 9px 12px;
+
+  border-radius: 8px;
+
+  background: #f0fdf4;
+  color: #15803d;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.add-transaction-card .error,
+.add-budget-card .error,
+.add-account-card .error {
+  padding: 9px 12px;
+
+  border-radius: 8px;
+
+  background: #fef2f2;
+  color: #dc2626;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* =========================================
+   PHASE 5 - HEADER POLISH
+   ========================================= */
+
+.dashboard-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.dashboard-header::after {
+  content: "";
+
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  right: -70px;
+  top: -90px;
+
+  border-radius: 50%;
+
+  background: rgba(79, 70, 229, 0.07);
+
+  pointer-events: none;
+}
+
+.dashboard-header > div:first-child {
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-header h1 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.dashboard-header p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.logout-button {
+  position: relative;
+  z-index: 2;
+
+  padding: 10px 20px;
+
+  border-radius: 10px;
+
+  font-weight: 650;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.logout-button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 18px rgba(17, 24, 39, 0.18);
+}
+
+.logout-button:active {
+  transform: translateY(0);
+}
+
+.dashboard-card {
+  transition:
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.dashboard-card:hover {
+  border-color: #dbe1ea;
+
+  box-shadow:
+    0 10px 28px rgba(15, 23, 42, 0.07);
+}
+
+.dashboard-card {
+  transition:
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.dashboard-card:hover {
+  border-color: #dbe1ea;
+
+  box-shadow:
+    0 10px 28px rgba(15, 23, 42, 0.07);
+}
